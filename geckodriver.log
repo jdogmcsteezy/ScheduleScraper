@@ -251,3 +251,63 @@ JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifie
 1515276307530	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
 [Child 20608, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 20608, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1515278871234	geckodriver	INFO	Listening on 127.0.0.1:55101
+1515278872240	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.WbPoCREQ6Kcr
+1515278872242	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515278872249	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41993
+1515278872954	Marionette	INFO	Enabled via --marionette
+1515278875556	Marionette	INFO	Listening on port 41993
+1515278875621	Marionette	DEBUG	Register listener.js for window 2147483649
+1515278875788	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515278875832	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515278875833	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515278876076	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515278876178	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515278933921	geckodriver	INFO	Listening on 127.0.0.1:58235
+1515278934928	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.tjbVTc9YQgNG
+1515278934931	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515278934938	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38997
+1515278935623	Marionette	INFO	Enabled via --marionette
+1515278938645	Marionette	INFO	Listening on port 38997
+1515278938726	Marionette	DEBUG	Register listener.js for window 2147483649
+1515278938747	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515278938794	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515278938794	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515278938997	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515278939142	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515278939401	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515278939681	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515278939952	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515278940058	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515278943568	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515278943573	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515278943682	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515278943737	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+[Child 22534, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 22534, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515279030237	geckodriver	INFO	Listening on 127.0.0.1:54819
+1515279031243	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.XaY4KkObHE4A
+1515279031245	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515279031251	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36313
+1515279031929	Marionette	INFO	Enabled via --marionette
+1515279034609	Marionette	INFO	Listening on port 36313
+1515279034849	Marionette	DEBUG	Register listener.js for window 2147483649
+1515279034882	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515279034925	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515279034926	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515279035103	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515279035299	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515279035603	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515279035919	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515279036193	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515279036330	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515279040026	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515279040031	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515279040230	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515279040307	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+[Child 22748, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 22748, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
