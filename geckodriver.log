@@ -1,0 +1,253 @@
+1515274102325	geckodriver	INFO	Listening on 127.0.0.1:33539
+1515274103330	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.uwh4OujvCjlL
+1515274103332	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515274103339	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34897
+1515274104037	Marionette	INFO	Enabled via --marionette
+1515274107566	Marionette	INFO	Listening on port 34897
+1515274107707	Marionette	DEBUG	Register listener.js for window 2147483649
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1515274283374	geckodriver	INFO	Listening on 127.0.0.1:34905
+1515274284381	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.k4zNBW5q1zl7
+1515274284383	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515274284390	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37417
+1515274285071	Marionette	INFO	Enabled via --marionette
+1515274288037	Marionette	INFO	Listening on port 37417
+1515274288154	Marionette	DEBUG	Register listener.js for window 2147483649
+1515274288177	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515274288199	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515274288199	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515274288743	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515274288832	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1515274674972	geckodriver	INFO	Listening on 127.0.0.1:50451
+1515274675978	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.uUjPOEr0qkJv
+1515274675981	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515274675988	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39931
+1515274676741	Marionette	INFO	Enabled via --marionette
+1515274679579	Marionette	INFO	Listening on port 39931
+1515274679829	Marionette	DEBUG	Register listener.js for window 2147483649
+1515274679844	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515274679876	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515274679876	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515274680068	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515274680376	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1515274717303	geckodriver	INFO	Listening on 127.0.0.1:46429
+1515274718309	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Ekd2OeLG3uSE
+1515274718312	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515274718317	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43159
+1515274718976	Marionette	INFO	Enabled via --marionette
+1515274721832	Marionette	INFO	Listening on port 43159
+1515274722071	Marionette	DEBUG	Register listener.js for window 2147483649
+1515274722082	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515274722111	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515274722111	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515274722305	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515274722448	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515274722715	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515274863584	geckodriver	INFO	Listening on 127.0.0.1:34633
+1515274864590	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.3rLsPOOGbQVL
+1515274864592	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515274864598	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36443
+1515274865349	Marionette	INFO	Enabled via --marionette
+1515274868167	Marionette	INFO	Listening on port 36443
+1515274868264	Marionette	DEBUG	Register listener.js for window 2147483649
+1515274868302	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515274868330	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515274868330	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515274868539	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515274868699	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515274868960	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515274869247	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515274869522	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1515275085962	geckodriver	INFO	Listening on 127.0.0.1:39047
+1515275086968	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.tTXAX0P6bv1N
+1515275086971	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515275086978	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41579
+1515275087671	Marionette	INFO	Enabled via --marionette
+1515275090211	Marionette	INFO	Listening on port 41579
+1515275090429	Marionette	DEBUG	Register listener.js for window 2147483649
+1515275090458	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515275090492	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515275090492	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515275090689	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515275090983	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515275091245	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515275091534	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515275091765	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515275091875	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515275095502	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515275095508	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515275095630	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515275095693	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1515275496004	geckodriver	INFO	Listening on 127.0.0.1:39635
+1515275497010	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.5dzrRhU7Yey9
+1515275497013	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515275497020	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36427
+1515275497756	Marionette	INFO	Enabled via --marionette
+1515275500705	Marionette	INFO	Listening on port 36427
+1515275500800	Marionette	DEBUG	Register listener.js for window 2147483649
+1515275500823	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515275500855	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515275500855	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515275501058	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515275501283	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515275501556	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515275501800	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515275502033	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515275502148	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515275505722	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515275505726	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515275505848	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515275505907	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515275588709	geckodriver	INFO	Listening on 127.0.0.1:53931
+1515275589716	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.lYbjMzsFbLOD
+1515275589719	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515275589726	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33531
+1515275590447	Marionette	INFO	Enabled via --marionette
+1515275593233	Marionette	INFO	Listening on port 33531
+1515275593298	Marionette	DEBUG	Register listener.js for window 2147483649
+1515275593499	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515275593539	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515275593539	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515275593730	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515275593920	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515275594193	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515275594545	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515275594821	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515275594956	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515275598591	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515275598596	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515275598731	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515275598799	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515276133880	geckodriver	INFO	Listening on 127.0.0.1:54463
+1515276134882	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.lndT6R83KzsU
+1515276134882	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515276134884	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37617
+1515276135577	Marionette	INFO	Enabled via --marionette
+1515276138624	Marionette	INFO	Listening on port 37617
+1515276138892	Marionette	DEBUG	Register listener.js for window 2147483649
+1515276138919	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515276139204	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515276139205	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515276139801	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515276140297	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515276140579	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515276140856	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515276141124	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515276141258	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515276145152	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515276145159	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515276145277	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515276145336	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515276175707	geckodriver	INFO	Listening on 127.0.0.1:46865
+1515276176713	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.3FZYYH9kILL0
+1515276176715	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515276176723	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46001
+1515276177439	Marionette	INFO	Enabled via --marionette
+1515276180291	Marionette	INFO	Listening on port 46001
+1515276180430	Marionette	DEBUG	Register listener.js for window 2147483649
+1515276180459	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515276180498	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515276180498	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515276180787	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515276180914	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515276181189	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515276181526	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515276181831	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515276181962	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515276185643	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515276185645	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515276185757	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515276185810	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1515276239179	geckodriver	INFO	Listening on 127.0.0.1:41495
+1515276240185	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Fh0g6L7IPlDU
+1515276240188	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515276240196	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46483
+1515276240838	Marionette	INFO	Enabled via --marionette
+1515276243520	Marionette	INFO	Listening on port 46483
+1515276243729	Marionette	DEBUG	Register listener.js for window 2147483649
+1515276243742	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515276243781	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515276243782	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515276243992	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515276244092	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515276244349	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515276244589	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515276244838	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515276244951	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515276248515	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515276248517	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515276248626	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515276248682	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515276297450	geckodriver	INFO	Listening on 127.0.0.1:33513
+1515276298456	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.NU057ZNnIs6k
+1515276298459	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515276298466	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43125
+1515276299169	Marionette	INFO	Enabled via --marionette
+1515276302215	Marionette	INFO	Listening on port 43125
+1515276302336	Marionette	DEBUG	Register listener.js for window 2147483649
+1515276302370	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515276302392	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515276302392	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515276302580	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515276302867	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515276303158	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515276303449	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515276303688	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515276303824	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515276307288	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515276307294	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515276307470	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515276307530	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+[Child 20608, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 20608, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
