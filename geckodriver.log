@@ -436,3 +436,21 @@ JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifie
 1515552668387	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
 JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1515627618288	geckodriver	INFO	Listening on 127.0.0.1:52195
+1515627619292	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.YDs9VClIHpuH
+1515627619293	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515627619297	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43045
+1515627620048	Marionette	INFO	Enabled via --marionette
+1515627622844	Marionette	INFO	Listening on port 43045
+1515627623127	Marionette	DEBUG	Register listener.js for window 2147483649
+1515627623147	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515627623287	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515627623287	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515627623552	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515627623680	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515627623948	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515627624275	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515627624412	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515627629618	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
