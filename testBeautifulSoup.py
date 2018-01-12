@@ -11,6 +11,8 @@ def CleanText(string):
 
 def ParseSchedule(classes):
     schedule = {}
+    schedule['LEC'] = None
+    schedule['LAB'] = None
     # Iterate through each type of class LEC or LAB
     for classType in classes:
         # To store Building, Days, Room, and start/stop time.
@@ -44,52 +46,72 @@ def ParseSchedule(classes):
         matches = [match for match in pattern.finditer(classType)]
         times = ['Start','End']
         for match,time in zip(matches, times):
-            #print(match,time)
             meeting[time] = match.group().strip()
         # Add the dic to a schedule
         schedule[type_] = meeting
-    #return schedule dict.
+    # Return schedule dict.
     return schedule
-    
-    
-with open('sampleHTML.html') as file:
-    soup = BeautifulSoup(file, 'lxml')
-rows = soup.find('tbody').findAll('tr')
-classes = []
-for row in rows:
-    classInfo = {}
-    LocationTime = []
-    for td in row.findAll('td', 'col-md-4'):
-        for div in td.findAll('div', limit=2):
-            text = div.text
-            if 'MC' in text:
-                LocationTime.append(CleanText(text))
-    if not LocationTime:
-        continue 
-    schedule = ParseSchedule(LocationTime)
-    if not schedule:
-        continue
-    classInfo['Schedule'] = schedule
-    td = row.find('td', 'col-md-2')
-    pattern = re.compile(r'[A-Z]\w{1,3}-\d+')
-    department_num = pattern.search(td.text).group()
-    pattern = re.compile(r'[A-Z]\d{4}\s.+')
-    name = pattern.search(td.text).group()
-    name = CleanText(name)[6:]
-    classInfo['Title'] = department_num + ' ' + name
-    for td in row.findAll('a',href=True):
-        if 'http://www.butte.edu/district_info/directory' in td['href']:
-            classInfo['Instructor'] = CleanText(td.text)
-    classes.append(classInfo)
-    print(classInfo)
-    print('\n')
 
-with open('subjectsHTML.txt') as f:
-    text = f.read()
-    pattern = re.compile(r'>.+<')
-    matches = pattern.finditer(text)
-    
-    with open ('subjects.txt','w') as w:
-        for match in matches:
-            w.write(match.group()[1:-1])
-            w.write('\', \'')
+# Takes the files saved by GrabClassData and parses them into a dict.
+# At this point this function needs a building specified based on how it parses
+# the <div> that contains class info. A later improvment will be using regex to be 
+# able to compile classes from any building into one dict.
+def ParseHTMLtoJSON(file, classes, building):
+    with open(file) as file:
+        soup = BeautifulSoup(file, 'lxml')
+    rows = soup.find('tbody').findAll('tr')
+    for row in rows:
+        classInfo = {}
+        LocationTime = []
+        for td in row.findAll('td', 'col-md-4'):
+            for div in td.findAll('div', limit=2):
+                text = div.text
+                if building in text:
+                    LocationTime.append(CleanText(text))
+        if not LocationTime:
+            continue 
+        # Parse the div that holds LEC, LAB, Start, End, Days, Building, Room.
+        schedule = ParseSchedule(LocationTime)
+        # Merge the returned scheule
+        classInfo = {**classInfo, **schedule}
+        td = row.find('td', 'col-md-2')
+        pattern = re.compile(r'[A-Z]\w{1,3}-\d+')
+        department_num = pattern.search(td.text).group()
+        pattern = re.compile(r'[A-Z]\d{4}\s.+')
+        name = pattern.search(td.text).group()
+        name = CleanText(name)[6:]
+        classInfo['Title'] = department_num + ' ' + name
+        for td in row.findAll('a',href=True):
+            if 'http://www.butte.edu/district_info/directory' in td['href']:
+                classInfo['Instructor'] = CleanText(td.text)
+            else:
+                classInfo['Instructor'] = None
+        classes.append(classInfo)
+        print(classInfo)
+        print('\n')
+    return classes
+
+def IsDepartmentInBuilding(file, building):
+    inBuilding = False
+    with open(file) as file:
+        soup = BeautifulSoup(file, 'lxml')
+    tbody = soup.find('tbody')
+    if not tbody:
+        return False
+    rows =tbody.findAll('tr')
+    for row in rows:
+        for td in row.findAll('td', 'col-md-4'):
+            for div in td.findAll('div', limit=2):
+                text = div.text
+                if building in text:
+                    inBuilding = True
+    return inBuilding
+
+def CompileClassesInBuilding(building):
+
+
+# classes1 = []
+# ParseHTMLtoJSON('Subjects_Schedules/ENGL_Schedule.html', classes1)
+# print(classes1)
+
+print(isDepartmentInBuilding('Subjects_Schedules/WLD_Schedule.html', 'MC'))
