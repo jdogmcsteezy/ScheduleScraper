@@ -11,6 +11,7 @@ from contextlib import contextmanager
 from bs4 import BeautifulSoup
 import re
 import sys
+import json
 
 Subjects_dir = 'Subjects_Schedules'
 Subjects = ['AB - Agriculture Business', 'ACCT - Accounting', 'AET - Agricultural Engineering Tech', 'AGR - Agriculture', 'AGS - Agricultural Science', 'AJ - Administration of Justice', 'AJLE - AJ Law Enforcement', 'ALH - Allied Health', 'ANTH - Anthropology', 'ART - Art', 'ASL - American Sign Language', 'AUT - Automotive Technology', 'BCIS - Business Computer Information', 'BIOL - Biological Sciences', 'BUS - Business', 'CDF - Child Development & Family Rel', 'CHEM - Chemistry', 'CHIN - Chinese', 'CLP - Career Life Planning', 'CMST - Communication Studies', 'COS - Cosmetology', 'CSCI - Computer Science', 'CSL - Counseling', 'DFT - Drafting', 'DRAM - Drama', 'DSPS - Disabled Student Programs/Serv', 'ECON - Economics', 'EDUC - Education', 'EH - Environmental Horticulture', 'EMS - Emergency Medical Services', 'ENGL - English', 'ENGR - Engineering', 'ESL - English as a Second Language', 'FASH - Fashion', 'FN - Foods & Nutrition', 'FREN - French', 'FSC - Fire Science', 'GEOG - Geography', 'GEOL - Geology', 'GERM - German', 'HIM - Health Information Management', 'HIST - History', 'HLTH - Health', 'HON - Honors', 'HUM - Humanities', 'IDST - Interdisciplinary Studies', 'ITAL - Italian', 'JOUR - Journalism', 'JPN - Japanese', 'KIN - Kinesiology', 'LATN - Latin', 'LEAD - Language Education/Development', 'LIS - Library & Information Science', 'LM - Life Management', 'MATH - Mathematics', 'MCS - Multicultural Studies', 'MSP - MultiMedia Studies Program', 'MUS - Music', 'NR - Natural Resources', 'NSG - Nursing', 'OLS - Occupational & Life Skills', 'PE - Physical Education', 'PHIL - Philosophy', 'PHO - Photography', 'PHYS - Physics', 'POS - Political Science', 'PSC - Physical Science', 'PSY - Psychology', 'READ - Reading', 'RLS - Real Estate', 'RT - Respiratory Care', 'RTVF - Radio/TV/Film', 'SOC - Sociology', 'SPAN - Spanish', 'SPE - Special Education', 'WKE - Work Experience', 'WLD - Welding']
@@ -134,11 +135,9 @@ def ParseHTMLtoJSON(data, classes, building):
         for td in row.findAll('a',href=True):
             if 'http://www.butte.edu/district_info/directory' in td['href']:
                 classInfo['Instructor'] = CleanText(td.text)
-            else:
-                classInfo['Instructor'] = None
+        if 'Instructor' not in classInfo.keys():
+            classInfo['Instructor'] = None
         classes.append(classInfo)
-        #print(classInfo)
-        #print('\n')
     return classes
 
 # Just checks to see if the depatment can be found.
@@ -177,7 +176,16 @@ def CompileClassesInBuilding(building):
 # print(classes1)
 
 with Web_Driver() as driver:
-       data = GrabClassData(driver,'Spring 2018', 'Main Campus', 'CSCI - Computer Science')
-       classes = []
-       ParseHTMLtoJSON(data, classes, 'MC')
-       print(classes)
+    data = GrabClassData(driver,'Spring 2018', 'Main Campus', 'CSCI - Computer Science')
+    classes = []
+    ParseHTMLtoJSON(data, classes, 'MC')
+    #print(classes)
+    classesJson = json.dumps(classes)
+    #print(classesJson)
+    test = json.loads(classesJson)
+    for i in test:
+        print('---------------------------------------------------')
+        print(i['Title'])
+        print(i['Instructor'])
+        print(i['LEC'])
+        print(i['LAB'])

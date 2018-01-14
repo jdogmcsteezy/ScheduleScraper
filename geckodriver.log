@@ -9566,3 +9566,309 @@ JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifie
 [Child 16800, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 16800, Chrome_ChildThread] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 16800, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515891590212	geckodriver	INFO	Listening on 127.0.0.1:42231
+1515891591123	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.RvZcEm1nLoBz
+1515891591126	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515891591169	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45021
+*** You are running in headless mode.
+1515891597368	Marionette	INFO	Enabled via --marionette
+1515891605536	Marionette	INFO	Listening on port 45021
+1515891605727	Marionette	DEBUG	Register listener.js for window 2147483649
+1515891606024	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515891606237	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515891606238	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515891608586	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515891608643	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515891608905	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515891609234	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515891609507	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515891609659	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515891613661	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515891613663	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515891613722	geckodriver	INFO	Listening on 127.0.0.1:46401
+1515891613758	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515891613831	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515891614728	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.mWB9eSZdEnNN
+1515891614728	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515891614729	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42979
+*** You are running in headless mode.
+1515891615417	Marionette	INFO	Enabled via --marionette
+1515891618176	Marionette	INFO	Listening on port 42979
+1515891618401	Marionette	DEBUG	Register listener.js for window 2147483649
+1515891618418	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515891618518	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515891618518	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515891618782	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515891618845	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515891619094	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515891619371	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515891619660	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515891619771	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515891623724	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515891623727	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515891623843	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515891623920	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+[Child 3992, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 3992, Chrome_ChildThread] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 3992, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515891726236	geckodriver	INFO	Listening on 127.0.0.1:45343
+1515891727243	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.QRFSJKxTwtLC
+1515891727246	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515891727251	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38081
+*** You are running in headless mode.
+1515891727937	Marionette	INFO	Enabled via --marionette
+1515891730583	Marionette	INFO	Listening on port 38081
+1515891730814	Marionette	DEBUG	Register listener.js for window 2147483649
+1515891730849	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515891730965	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515891730965	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515891731216	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515891731297	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515891731550	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515891731864	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515891732132	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515891732262	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515891736392	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515891736394	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515891736494	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515891736563	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+[Child 4288, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4288, Chrome_ChildThread] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4288, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515892917664	geckodriver	INFO	Listening on 127.0.0.1:38319
+1515892918670	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.9pmTGSwEjUcK
+1515892918671	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515892918672	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39355
+*** You are running in headless mode.
+1515892919314	Marionette	INFO	Enabled via --marionette
+1515892921879	Marionette	INFO	Listening on port 39355
+1515892922067	Marionette	DEBUG	Register listener.js for window 2147483649
+1515892922093	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515892922202	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515892922203	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515892922430	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515892922468	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515892922716	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515892923011	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515892923288	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515892923420	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515892927375	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515892927376	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515892927466	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515892927521	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+[Child 5157, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5157, Chrome_ChildThread] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5157, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515893225256	geckodriver	INFO	Listening on 127.0.0.1:33887
+1515893226262	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.8HLGPNB5kqIp
+1515893226265	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515893226271	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41191
+*** You are running in headless mode.
+1515893226988	Marionette	INFO	Enabled via --marionette
+1515893229548	Marionette	INFO	Listening on port 41191
+1515893229702	Marionette	DEBUG	Register listener.js for window 2147483649
+1515893229721	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515893229833	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515893229834	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515893230126	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515893230162	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515893230411	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515893230724	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515893231026	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515893231162	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515893235206	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515893235210	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515893235341	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515893235399	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+[Child 5622, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5622, Chrome_ChildThread] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5622, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515893386120	geckodriver	INFO	Listening on 127.0.0.1:60153
+1515893387124	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ouwxfVFJJx5K
+1515893387126	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515893387130	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37593
+*** You are running in headless mode.
+1515893387852	Marionette	INFO	Enabled via --marionette
+1515893390378	Marionette	INFO	Listening on port 37593
+1515893390584	Marionette	DEBUG	Register listener.js for window 2147483649
+1515893390615	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515893390740	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515893390740	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515893391017	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515893391071	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515893391340	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515893391615	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515893391890	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515893392020	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515893395779	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515893395782	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515893395866	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515893395937	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+[Child 5861, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5861, Chrome_ChildThread] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5861, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515893649302	geckodriver	INFO	Listening on 127.0.0.1:46635
+1515893650308	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ZQBAECsvFvUC
+1515893650311	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515893650313	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35497
+*** You are running in headless mode.
+1515893650919	Marionette	INFO	Enabled via --marionette
+1515893653467	Marionette	INFO	Listening on port 35497
+1515893653756	Marionette	DEBUG	Register listener.js for window 2147483649
+1515893653772	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515893653887	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515893653887	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515893654154	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515893654217	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515893654469	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515893654739	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515893655023	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515893655154	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515893658838	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515893658840	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515893658926	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515893658990	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+[Child 6265, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6265, Chrome_ChildThread] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6265, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515893809153	geckodriver	INFO	Listening on 127.0.0.1:33501
+1515893810159	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.FFQ1aNuARY0A
+1515893810162	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515893810167	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46511
+*** You are running in headless mode.
+1515893810841	Marionette	INFO	Enabled via --marionette
+1515893813386	Marionette	INFO	Listening on port 46511
+1515893813603	Marionette	DEBUG	Register listener.js for window 2147483649
+1515893813631	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515893813762	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515893813762	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515893814016	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515893814082	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515893814344	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515893814617	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515893814890	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515893815030	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515893818870	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515893818875	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515893819006	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515893819051	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+[Child 6545, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6545, Chrome_ChildThread] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6545, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515893902947	geckodriver	INFO	Listening on 127.0.0.1:51941
+1515893903953	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.P9gfwdWEppG9
+1515893903955	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515893903959	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37601
+*** You are running in headless mode.
+1515893904658	Marionette	INFO	Enabled via --marionette
+1515893907275	Marionette	INFO	Listening on port 37601
+1515893907486	Marionette	DEBUG	Register listener.js for window 2147483649
+1515893907512	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515893907624	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515893907625	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515893907871	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515893907935	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515893908184	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515893908454	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515893908744	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515893908877	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515893913225	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515893913230	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515893913340	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515893913395	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+[Child 6828, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6828, Chrome_ChildThread] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6828, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515894414767	geckodriver	INFO	Listening on 127.0.0.1:41945
+1515894415773	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.0yKbxPReVRDG
+1515894415773	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515894415774	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36879
+*** You are running in headless mode.
+1515894416470	Marionette	INFO	Enabled via --marionette
+1515894418990	Marionette	INFO	Listening on port 36879
+1515894419267	Marionette	DEBUG	Register listener.js for window 2147483649
+1515894419294	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515894419406	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515894419406	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515894419669	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515894419714	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515894419968	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515894420239	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515894420519	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515894420652	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515894424308	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515894424314	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515894424424	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515894424480	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+[Child 7375, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7375, Chrome_ChildThread] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7375, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 7375, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515894567967	geckodriver	INFO	Listening on 127.0.0.1:45449
+1515894568973	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.VzCz9oDxdhZj
+1515894568973	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515894568975	geckodriver::marionette	INFO	Connecting to Marionette on localhost:32995
+*** You are running in headless mode.
+1515894569653	Marionette	INFO	Enabled via --marionette
+1515894572247	Marionette	INFO	Listening on port 32995
+1515894572504	Marionette	DEBUG	Register listener.js for window 2147483649
+1515894572524	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515894572635	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515894572636	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515894572898	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515894572963	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515894573232	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515894573538	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515894573817	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515894573947	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515894577194	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515894577200	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515894577309	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515894577353	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+[Child 7714, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7714, Chrome_ChildThread] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7714, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515894747097	geckodriver	INFO	Listening on 127.0.0.1:54875
+1515894748103	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.b4YY225vSgA5
+1515894748106	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515894748111	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37335
+*** You are running in headless mode.
+1515894749085	Marionette	INFO	Enabled via --marionette
+1515894751856	Marionette	INFO	Listening on port 37335
+1515894752057	Marionette	DEBUG	Register listener.js for window 2147483649
+1515894752073	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515894752184	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515894752184	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515894752447	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515894752517	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515894752773	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515894753017	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515894753247	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515894753378	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515894756944	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515894756950	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515894757057	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515894757107	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515894871130	geckodriver	INFO	Listening on 127.0.0.1:45795
+1515894872137	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.XRBveXO11AAM
+1515894872140	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1515894872142	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36483
+*** You are running in headless mode.
+1515894872786	Marionette	INFO	Enabled via --marionette
+1515894875578	Marionette	INFO	Listening on port 36483
+1515894875704	Marionette	DEBUG	Register listener.js for window 2147483649
+1515894875725	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515894875845	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515894875846	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515894876116	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1515894876179	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1515894876429	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515894876738	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515894877016	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515894877157	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1515894881011	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1515894881012	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1515894881110	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1515894881167	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+[Child 8386, Chrome_ChildThread] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
