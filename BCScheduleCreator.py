@@ -176,16 +176,22 @@ def CompileClassesInBuilding(building):
 # print(classes1)
 
 with Web_Driver() as driver:
-    data = GrabClassData(driver,'Spring 2018', 'Main Campus', 'CSCI - Computer Science')
-    classes = []
-    ParseHTMLtoJSON(data, classes, 'MC')
+    with open('subjectsIn_MC.txt') as file:
+        subjectsMC = [subject.strip() for subject in file.readlines()]
+        classes = []
+    for subject in subjectsMC:
+        print(subject)
+        data = GrabClassData(driver,'Spring 2018', 'Main Campus', subject)
+        ParseHTMLtoJSON(data, classes, 'MC')
+    print('---------------------------------------------------')
+    #print(classes)
     #print(classes)
     classesJson = json.dumps(classes)
     #print(classesJson)
     test = json.loads(classesJson)
     for i in test:
         print('---------------------------------------------------')
-        print(i['Title'])
-        print(i['Instructor'])
-        print(i['LEC'])
-        print(i['LAB'])
+        print('Name: ',i['Title'])
+        print('Instructor: ', i['Instructor'])
+        print('LEC: ', i['LEC'])
+        print('LAB: ', i['LAB'])
