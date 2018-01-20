@@ -45,6 +45,7 @@ def GrabClassData(Term, Location, Subject):
         tableData = Driver.page_source
         return tableData
 
+# NOT REALLY USED FOR PROJECT
 # Just saves the Data paramater as html file. 
 # Subject field is used to name the file.
 def SaveDataToHTML(Subject, Data):
@@ -59,8 +60,12 @@ def SaveDataToHTML(Subject, Data):
     with open(filePath, 'w') as file:
         file.write(Data)
 
-def SaveDataToJSON():
-    pass
+def PrintClass(classDict):
+    print('Name: ', classDict['Title'])
+    print('Instructor: ', classDict['Instructor'])
+    print('LEC: ', classDict['LEC'])
+    print('LAB: ', classDict['LAB'])
+
 
 # Used to quickly clean off unnecessary characters (\n, \, *, whitespace) from scraped text.
 def CleanText(string):
@@ -71,7 +76,7 @@ def CleanText(string):
     string = string.replace('  ', '')
     return string.strip()
 
-def ConvertTimeTo24(time12):
+def ConvertStdToMilitary(time12):
     hour24 = 0
     min24 = 0 
     if 'PM' in time12:
@@ -80,11 +85,26 @@ def ConvertTimeTo24(time12):
     minPattern = re.compile(r':\d\d')
     hourMatch = hourPattern.search(time12)
     minMatch = minPattern.search(time12)
-    print(hourMatch)
-    print(minMatch)
     hour24 += int(hourMatch.group()[:-1])
     min24 += int(minMatch.group()[1:])
-    return '{}:{}'.format(hour24, min24)
+    return '{}:{}'.format(hour24 if hour24 > 9 else ('0' + str(hour24)), min24 if min24 > 9 else ('0' + str(min24)))
+
+def ConvertMilitaryToStd(time24):
+    hour12 = 0
+    min12 = 0 
+    hourPattern = re.compile(r'\d{1,2}:')
+    minPattern = re.compile(r':\d\d')
+    hourMatch = hourPattern.search(time24)
+    minMatch = minPattern.search(time24)
+    hour12 += int(hourMatch.group()[:-1])
+    min12 += int(minMatch.group()[1:])
+    timeOfDay = ''
+    if hour12 > 12:
+        timeOfDay = 'PM'
+        hour12 -= 12
+    else:
+        timeOfDay = 'AM'
+    return '{}:{} {}'.format(hour12, min12 if min12 > 9 else ('0' + str(min12)), timeOfDay)
 
 def ParseSchedule(classes):
     schedule = {}
@@ -123,7 +143,7 @@ def ParseSchedule(classes):
         matches = [match for match in pattern.finditer(classType)]
         times = ['Start','End']
         for match,time in zip(matches, times):
-            meeting[time] = ConvertTimeTo24(match.group().strip())
+            meeting[time] = ConvertStdToMilitary(match.group().strip())
         # Add the dic to a schedule
         schedule[type_] = meeting
     # Return schedule dict.
@@ -197,18 +217,29 @@ def CompileClassesInBuilding(building):
                 if IsDepartmentInBuilding(data, building):
                     file.write(subject + '\n')
 
-with open('subjectsIn_MC.txt') as file:
-    subjectsMC = [subject.strip() for subject in file.readlines()]
-    classes = []
-for subject in subjectsMC:
-    print(subject)
-    data = GrabClassData('Spring 2018', 'Main Campus', subject)
-    ParseHTMLtoJSON(data, classes, 'MC')
-#print('---------------------------------------------------')
-#print(classes)
-#print(classes)
-with open('testJSON.json','w') as file:
-    json.dump(classes, file)
+
+# ------ Here is an example of how to grab info from web and dump it into a json file ------
+# with open('subjectsIn_MC.txt') as file:
+#     subjectsMC = [subject.strip() for subject in file.readlines()]
+#     classes = []
+# for subject in subjectsMC:
+#     print(subject)
+#     data = GrabClassData('Spring 2018', 'Main Campus', subject)
+#     ParseHTMLtoJSON(data, classes, 'MC')
+
+# with open('testJSON.json','w') as file:
+#     json.dump(classes, file)
+
+
+
+
+
+
+
+
+
+
+
 #classesJson = json.dumps(classes)
 #print(classesJson)
 #test = json.loads(classesJson)
