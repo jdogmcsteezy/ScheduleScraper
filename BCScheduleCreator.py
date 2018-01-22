@@ -85,7 +85,7 @@ def ConvertStdToMilitary(time12):
     minPattern = re.compile(r':\d\d')
     hourMatch = hourPattern.search(time12)
     minMatch = minPattern.search(time12)
-    hour24 += int(hourMatch.group()[:-1])
+    hour24 += int(hourMatch.group()[:-1]) if int(hourMatch.group()[:-1]) != 12 else 0
     min24 += int(minMatch.group()[1:])
     return '{}:{}'.format(hour24 if hour24 > 9 else ('0' + str(hour24)), min24 if min24 > 9 else ('0' + str(min24)))
 
@@ -217,18 +217,24 @@ def CompileClassesInBuilding(building):
                 if IsDepartmentInBuilding(data, building):
                     file.write(subject + '\n')
 
+def DoesClassMeet(day, meeting, type):
+    if meeting[type] is not None:
+        if day in meeting[type]['Days']:
+            return True
+    return False
+
 
 # ------ Here is an example of how to grab info from web and dump it into a json file ------
-# with open('subjectsIn_MC.txt') as file:
-#     subjectsMC = [subject.strip() for subject in file.readlines()]
-#     classes = []
-# for subject in subjectsMC:
-#     print(subject)
-#     data = GrabClassData('Spring 2018', 'Main Campus', subject)
-#     ParseHTMLtoJSON(data, classes, 'MC')
+with open('subjectsIn_MC.txt') as file:
+    subjectsMC = [subject.strip() for subject in file.readlines()]
+    classes = []
+for subject in subjectsMC:
+    print(subject)
+    data = GrabClassData('Spring 2018', 'Main Campus', subject)
+    ParseHTMLtoJSON(data, classes, 'MC')
 
-# with open('testJSON.json','w') as file:
-#     json.dump(classes, file)
+with open('testJSON.json','w') as file:
+    json.dump(classes, file)
 
 
 
