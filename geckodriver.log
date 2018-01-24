@@ -11080,3 +11080,261 @@ JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifie
 [Child 22313, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 22313, Chrome_ChildThread] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 22313, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1516645779786	geckodriver	INFO	Listening on 127.0.0.1:58947
+1516645780791	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.MO6JEyf22n7c
+1516645780794	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1516645780851	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36785
+*** You are running in headless mode.
+1516645786814	Marionette	INFO	Enabled via --marionette
+JavaScript error: resource://gre/modules/XPCOMUtils.jsm, line 266: TypeError: Cc[aContract] is undefined
+1516645796403	Marionette	INFO	Listening on port 36785
+1516645796511	Marionette	DEBUG	Register listener.js for window 4294967297
+1516645796511	Marionette	DEBUG	Register listener.js for window 2147483649
+1516645796675	Marionette	DEBUG	Register listener.js for window 2147483652
+1516645796787	Marionette	DEBUG	Received DOM event "beforeunload" for "https://radius.butte.edu/guest/logintest_cert.php?cmd=login&mac=00:db:df:c1:3e:91&ip=10.20.164.241&essid=Butte%5FGuest&apname=PS.117&apgroup=default&url=http%3A%2F%2Fdetectportal%2Efirefox%2Ecom&_browser=1"
+1516645797184	Marionette	DEBUG	Received DOM event "pagehide" for "https://radius.butte.edu/guest/logintest_cert.php?cmd=login&mac=00:db:df:c1:3e:91&ip=10.20.164.241&essid=Butte%5FGuest&apname=PS.117&apgroup=default&url=http%3A%2F%2Fdetectportal%2Efirefox%2Ecom&_browser=1"
+1516645797184	Marionette	DEBUG	Received DOM event "unload" for "https://radius.butte.edu/guest/logintest_cert.php?cmd=login&mac=00:db:df:c1:3e:91&ip=10.20.164.241&essid=Butte%5FGuest&apname=PS.117&apgroup=default&url=http%3A%2F%2Fdetectportal%2Efirefox%2Ecom&_browser=1"
+1516645797192	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645797194	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+JavaScript error: https://radius.butte.edu/guest/logintest_cert.php?cmd=login&mac=00:db:df:c1:3e:91&ip=10.20.164.241&essid=Butte%5FGuest&apname=PS.117&apgroup=default&url=http%3A%2F%2Fsearchclasses%2Ebutte%2Eedu&_browser=1, line 687: SyntaxError: expected expression, got end of script
+1516645805377	geckodriver	INFO	Listening on 127.0.0.1:59619
+1516645806383	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.mSEI2wOU98lF
+1516645806387	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1516645806393	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40795
+*** You are running in headless mode.
+1516645807069	Marionette	INFO	Enabled via --marionette
+JavaScript error: resource://gre/modules/XPCOMUtils.jsm, line 266: TypeError: Cc[aContract] is undefined
+1516645810257	Marionette	INFO	Listening on port 40795
+1516645810359	Marionette	DEBUG	Register listener.js for window 2147483649
+1516645810376	Marionette	DEBUG	Register listener.js for window 2147483652
+1516645810379	Marionette	DEBUG	Register listener.js for window 4294967297
+1516645810404	Marionette	DEBUG	Received DOM event "beforeunload" for "http://detectportal.firefox.com/success.txt"
+1516645810466	Marionette	DEBUG	Received DOM event "pagehide" for "http://detectportal.firefox.com/success.txt"
+1516645810466	Marionette	DEBUG	Received DOM event "unload" for "http://detectportal.firefox.com/success.txt"
+1516645810470	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645810472	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+JavaScript error: https://radius.butte.edu/guest/logintest_cert.php?cmd=login&mac=00:db:df:c1:3e:91&ip=10.20.164.241&essid=Butte%5FGuest&apname=PS.117&apgroup=default&url=http%3A%2F%2Fsearchclasses%2Ebutte%2Eedu&_browser=1, line 687: SyntaxError: expected expression, got end of script
+1516645815315	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1516645829608	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1516645883989	geckodriver	INFO	Listening on 127.0.0.1:59247
+1516645884996	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.heD4vimnPsGy
+1516645884999	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1516645885004	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38339
+*** You are running in headless mode.
+1516645885658	Marionette	INFO	Enabled via --marionette
+1516645888738	Marionette	INFO	Listening on port 38339
+1516645888868	Marionette	DEBUG	Register listener.js for window 2147483649
+1516645888883	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516645888906	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516645888907	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516645889473	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645889556	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645889808	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645890089	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645890342	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645890568	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645894109	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1516645894114	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1516645894232	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645894282	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645894379	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645894411	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645894411	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645894494	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645894548	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645894789	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645895097	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645895377	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645895510	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645897618	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1516645897623	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1516645897726	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645897765	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645897862	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645897901	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645897902	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645898007	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645898113	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645898357	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645898656	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645898887	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645899019	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645900400	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1516645900408	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1516645900499	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645900539	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645900574	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645900596	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645900596	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645900673	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645900724	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645900967	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645901243	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645901512	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645901651	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645903227	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1516645903231	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1516645903326	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645903366	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645903391	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645903412	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645903412	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645903493	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645903540	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645903776	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645904044	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645904324	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645904452	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645907536	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1516645907540	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1516645907639	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645907685	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645907792	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645907813	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645907814	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645907890	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645907941	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645908178	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645908435	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645908709	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645908849	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645913052	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1516645913058	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1516645913170	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645913209	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645913325	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645913346	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645913347	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645913428	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645913478	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645913716	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645913990	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645914262	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645914355	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645915985	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1516645915989	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1516645916094	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645916136	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645916163	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645916184	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645916184	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645916362	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645916411	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645916652	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645916893	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645917168	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645917278	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645919244	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1516645919251	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1516645919347	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645919385	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645919407	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645919430	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645919430	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645919515	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645919564	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645919800	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645920088	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645920358	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645920487	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645925690	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645929921	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645929945	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645929945	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645930018	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645930065	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645930296	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645930557	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645930848	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645930973	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645932343	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1516645932345	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1516645932427	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645932464	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645932488	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645932509	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645932509	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645932749	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645932796	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645933044	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645933328	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645933594	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645933726	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645938482	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1516645938486	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1516645938614	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645938654	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645938838	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645938898	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645938898	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645938993	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645939040	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645939272	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645939518	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645939752	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645939880	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645943350	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1516645943355	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1516645943549	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645943585	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645943676	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645943697	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645943697	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645943770	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645943817	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645944051	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645944341	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645944611	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645944737	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645947981	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1516645948021	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1516645948140	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645948187	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645948293	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645948314	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645948314	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645948391	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645948443	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645948693	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645948975	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645949252	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645949350	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645950796	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1516645950800	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1516645950899	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645950937	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645951028	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645951058	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645951059	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645951161	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645951208	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645951447	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645951728	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645952019	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645952144	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645953909	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1516645953916	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1516645954018	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645954055	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645954143	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645954165	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645954165	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645954249	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/"
+1516645954293	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/"
+1516645954526	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645954819	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645955117	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516645955245	Marionette	DEBUG	Received DOM event "beforeunload" for "http://searchclasses.butte.edu/"
+1516645956836	Marionette	DEBUG	Received DOM event "pagehide" for "http://searchclasses.butte.edu/"
+1516645956843	Marionette	DEBUG	Received DOM event "unload" for "http://searchclasses.butte.edu/"
+1516645956951	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://searchclasses.butte.edu/Home/SearchResults"
+1516645956988	Marionette	DEBUG	Received DOM event "pageshow" for "http://searchclasses.butte.edu/Home/SearchResults"
+[Child 2871, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 2871, Chrome_ChildThread] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 2871, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-itlqqH/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/captivedetect.js, line 339: ReferenceError: gSysMsgr is not defined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/captivedetect.js, line 339: ReferenceError: gSysMsgr is not defined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]

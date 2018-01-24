@@ -5,7 +5,6 @@ CHIN - Chinese
 CMST - Communication Studies
 CSCI - Computer Science
 CSL - Counseling
-ENGL - English
 ENGR - Engineering
 HIST - History
 JPN - Japanese
