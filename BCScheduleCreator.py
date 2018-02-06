@@ -16,6 +16,8 @@ import json
 Subjects_dir = 'Subjects_Schedules'
 Subjects = ['AB - Agriculture Business', 'ACCT - Accounting', 'AET - Agricultural Engineering Tech', 'AGR - Agriculture', 'AGS - Agricultural Science', 'AJ - Administration of Justice', 'AJLE - AJ Law Enforcement', 'ALH - Allied Health', 'ANTH - Anthropology', 'ART - Art', 'ASL - American Sign Language', 'AUT - Automotive Technology', 'BCIS - Business Computer Information', 'BIOL - Biological Sciences', 'BUS - Business', 'CDF - Child Development & Family Rel', 'CHEM - Chemistry', 'CHIN - Chinese', 'CLP - Career Life Planning', 'CMST - Communication Studies', 'COS - Cosmetology', 'CSCI - Computer Science', 'CSL - Counseling', 'DFT - Drafting', 'DRAM - Drama', 'DSPS - Disabled Student Programs/Serv', 'ECON - Economics', 'EDUC - Education', 'EH - Environmental Horticulture', 'EMS - Emergency Medical Services', 'ENGL - English', 'ENGR - Engineering', 'ESL - English as a Second Language', 'FASH - Fashion', 'FN - Foods & Nutrition', 'FREN - French', 'FSC - Fire Science', 'GEOG - Geography', 'GEOL - Geology', 'GERM - German', 'HIM - Health Information Management', 'HIST - History', 'HLTH - Health', 'HON - Honors', 'HUM - Humanities', 'IDST - Interdisciplinary Studies', 'ITAL - Italian', 'JOUR - Journalism', 'JPN - Japanese', 'KIN - Kinesiology', 'LATN - Latin', 'LEAD - Language Education/Development', 'LIS - Library & Information Science', 'LM - Life Management', 'MATH - Mathematics', 'MCS - Multicultural Studies', 'MSP - MultiMedia Studies Program', 'MUS - Music', 'NR - Natural Resources', 'NSG - Nursing', 'OLS - Occupational & Life Skills', 'PE - Physical Education', 'PHIL - Philosophy', 'PHO - Photography', 'PHYS - Physics', 'POS - Political Science', 'PSC - Physical Science', 'PSY - Psychology', 'READ - Reading', 'RLS - Real Estate', 'RT - Respiratory Care', 'RTVF - Radio/TV/Film', 'SOC - Sociology', 'SPAN - Spanish', 'SPE - Special Education', 'WKE - Work Experience', 'WLD - Welding']
 
+# Selenium web driver wrapped in a context manager to ensure the browser closes.
+# The browser runs -headless, meaning no screen appears.
 @contextmanager
 def Web_Driver():
     options = Options()
@@ -24,20 +26,28 @@ def Web_Driver():
     yield driver
     driver.quit()
 
-def GrabClassData(Driver, Term, Location, Subject):
-    Driver.get('http://searchclasses.butte.edu/')
-    selection = Select(Driver.find_element_by_id('InputTermId'))
-    selection.select_by_visible_text(Term)
-    selection = Select(Driver.find_element_by_id('InputLocationId'))
-    selection.select_by_visible_text(Location)
-    if Subject is not None:
-        selection = Select(Driver.find_element_by_id('InputSubjectId'))
-        selection.select_by_visible_text(Subject)
-    Driver.find_element_by_id('searchButton').click()
-    WebDriverWait(Driver, 20).until(EC.presence_of_element_located((By.ID, 'resultsBoiler')))
-    tableData = Driver.page_source
-    return tableData
+# Used to do the work of using a firefox web browser to fill Butte College class search forms.
+# All paramaters are filled the same as the actual web form at 'http://searchclasses.butte.edu/'.
+# If None is input into the Subject paramater web browser will attempt to get all info from all
+# departments which may timeout.
+def GrabClassData(Term, Location, Subject):
+    with Web_Driver() as Driver:
+        Driver.get('http://searchclasses.butte.edu/')
+        selection = Select(Driver.find_element_by_id('InputTermId'))
+        selection.select_by_visible_text(Term)
+        selection = Select(Driver.find_element_by_id('InputLocationId'))
+        selection.select_by_visible_text(Location)
+        if Subject is not None:
+            selection = Select(Driver.find_element_by_id('InputSubjectId'))
+            selection.select_by_visible_text(Subject)
+        Driver.find_element_by_id('searchButton').click()
+        WebDriverWait(Driver, 20).until(EC.presence_of_element_located((By.ID, 'resultsBoiler')))
+        tableData = Driver.page_source
+        return tableData
 
+# NOT REALLY USED FOR PROJECT
+# Just saves the Data paramater as html file. 
+# Subject field is used to name the file.
 def SaveDataToHTML(Subject, Data):
     # Grab the acronymn for the subject
     pattern = re.compile(r'[A-Z]+\b')
@@ -50,9 +60,14 @@ def SaveDataToHTML(Subject, Data):
     with open(filePath, 'w') as file:
         file.write(Data)
 
-def SaveDataToJSON():
-    pass
+def PrintClass(classDict):
+    print('Name: ', classDict['Title'])
+    print('Instructor: ', classDict['Instructor'])
+    print('LEC: ', classDict['LEC'])
+    print('LAB: ', classDict['LAB'])
 
+
+# Used to quickly clean off unnecessary characters (\n, \, *, whitespace) from scraped text.
 def CleanText(string):
     string = string.replace(r'\n', '')
     string = string.replace('\'', '')
@@ -60,6 +75,36 @@ def CleanText(string):
     string = string.replace('*', '')
     string = string.replace('  ', '')
     return string.strip()
+
+def ConvertStdToMilitary(time12):
+    hour24 = 0
+    min24 = 0 
+    if 'PM' in time12:
+        hour24 += 12
+    hourPattern = re.compile(r'\d{1,2}:')
+    minPattern = re.compile(r':\d\d')
+    hourMatch = hourPattern.search(time12)
+    minMatch = minPattern.search(time12)
+    hour24 += int(hourMatch.group()[:-1]) if int(hourMatch.group()[:-1]) != 12 else 0
+    min24 += int(minMatch.group()[1:])
+    return '{}:{}'.format(hour24 if hour24 > 9 else ('0' + str(hour24)), min24 if min24 > 9 else ('0' + str(min24)))
+
+def ConvertMilitaryToStd(time24):
+    hour12 = 0
+    min12 = 0 
+    hourPattern = re.compile(r'\d{1,2}:')
+    minPattern = re.compile(r':\d\d')
+    hourMatch = hourPattern.search(time24)
+    minMatch = minPattern.search(time24)
+    hour12 += int(hourMatch.group()[:-1])
+    min12 += int(minMatch.group()[1:])
+    timeOfDay = ''
+    if hour12 > 12:
+        timeOfDay = 'PM'
+        hour12 -= 12
+    else:
+        timeOfDay = 'AM'
+    return '{}:{} {}'.format(hour12, min12 if min12 > 9 else ('0' + str(min12)), timeOfDay)
 
 def ParseSchedule(classes):
     schedule = {}
@@ -98,7 +143,7 @@ def ParseSchedule(classes):
         matches = [match for match in pattern.finditer(classType)]
         times = ['Start','End']
         for match,time in zip(matches, times):
-            meeting[time] = match.group().strip()
+            meeting[time] = ConvertStdToMilitary(match.group().strip())
         # Add the dic to a schedule
         schedule[type_] = meeting
     # Return schedule dict.
@@ -110,10 +155,12 @@ def ParseSchedule(classes):
 # able to compile classes from any building into one dict.
 def ParseHTMLtoJSON(data, classes, building):
     soup = BeautifulSoup(data, 'lxml')
+    # Grab every table row inside a <bodyt> 
     rows = soup.find('tbody').findAll('tr')
     for row in rows:
         classInfo = {}
         LocationTime = []
+        # Traverse <td>'s within <tr>
         for td in row.findAll('td', 'col-md-4'):
             for div in td.findAll('div', limit=2):
                 text = div.text
@@ -170,28 +217,8 @@ def CompileClassesInBuilding(building):
                 if IsDepartmentInBuilding(data, building):
                     file.write(subject + '\n')
 
-
-# classes1 = []
-# ParseHTMLtoJSON('Subjects_Schedules/ENGL_Schedule.html', classes1)
-# print(classes1)
-
-with Web_Driver() as driver:
-    with open('subjectsIn_MC.txt') as file:
-        subjectsMC = [subject.strip() for subject in file.readlines()]
-        classes = []
-    for subject in subjectsMC:
-        print(subject)
-        data = GrabClassData(driver,'Spring 2018', 'Main Campus', subject)
-        ParseHTMLtoJSON(data, classes, 'MC')
-    print('---------------------------------------------------')
-    #print(classes)
-    #print(classes)
-    classesJson = json.dumps(classes)
-    #print(classesJson)
-    test = json.loads(classesJson)
-    for i in test:
-        print('---------------------------------------------------')
-        print('Name: ',i['Title'])
-        print('Instructor: ', i['Instructor'])
-        print('LEC: ', i['LEC'])
-        print('LAB: ', i['LAB'])
+def DoesClassMeet(day, meeting, type):
+    if meeting[type] is not None:
+        if day in meeting[type]['Days']:
+            return True
+    return False
