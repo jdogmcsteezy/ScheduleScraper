@@ -212,8 +212,9 @@ def CompileSubjectsInBuilding(building, semester, location, fileName):
     with open(fileName, 'w') as file:
         with Web_Driver() as driver:
             for subject in Subjects:
-                data = GrabClassData(driver, semester, location, subject)
+                data = GrabClassData(semester, location, subject)
                 if IsDepartmentInBuilding(data, building):
+                    print(subject)
                     file.write(subject + '\n')
 
 def DoesClassMeet(day, meeting, type):
@@ -242,6 +243,6 @@ def DumpListToJson(classes, fileName):
         json.dump(classes, file)
 
 def LoadJsonToList(fileName):
-    with open(filName) as file:
+    with open(fileName) as file:
         data = json.loads(file.read())
         return data
