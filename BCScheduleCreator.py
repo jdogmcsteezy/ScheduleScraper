@@ -41,7 +41,7 @@ def GrabClassData(Term, Location, Subject):
             selection = Select(Driver.find_element_by_id('InputSubjectId'))
             selection.select_by_visible_text(Subject)
         Driver.find_element_by_id('searchButton').click()
-        WebDriverWait(Driver, 20).until(EC.presence_of_element_located((By.ID, 'resultsBoiler')))
+        WebDriverWait(Driver, 60).until(EC.presence_of_element_located((By.ID, 'resultsBoiler')))
         tableData = Driver.page_source
         return tableData
 
@@ -208,12 +208,11 @@ def IsDepartmentInBuilding(data, building):
 # Goes to webpage and fills out forms for all subjects
 # then checks whether the subject has any classes in the 'building' paramater.
 # Saves every relevant subject to a txt file named subjectsIn_building.txt.
-def CompileClassesInBuilding(building):
-    fileName = 'subjectsIn_' + building + '.txt'
+def CompileSubjectsInBuilding(building, semester, location, fileName):
     with open(fileName, 'w') as file:
         with Web_Driver() as driver:
             for subject in Subjects:
-                data = GrabClassData(driver,'Spring 2018', 'Main Campus', subject)
+                data = GrabClassData(driver, semester, location, subject)
                 if IsDepartmentInBuilding(data, building):
                     file.write(subject + '\n')
 
@@ -222,3 +221,27 @@ def DoesClassMeet(day, meeting, type):
         if day in meeting[type]['Days']:
             return True
     return False
+
+def CreateClassesList(building, semester, location, fileName):
+    classes = []
+    with open(fileName) as file:
+        subjectsMC = [subject.strip() for subject in file.readlines()]
+    for subject in subjectsMC:
+        data = GrabClassData(semester, location, subject)
+        print(subject)
+        ParseHTMLtoJSON(data, classes, building)
+    print(type(classes))
+    classesSet = []
+    for d in classes:
+        if d not in classesSet:
+            classesSet.append(d)
+    return classesSet
+
+def DumpListToJson(classes, fileName):
+    with open(fileName,'w') as file:
+        json.dump(classes, file)
+
+def LoadJsonToList(fileName):
+    with open(filName) as file:
+        data = json.loads(file.read())
+        return data
