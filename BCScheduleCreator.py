@@ -222,37 +222,3 @@ def DoesClassMeet(day, meeting, type):
         if day in meeting[type]['Days']:
             return True
     return False
-
-
-# ------ Here is an example of how to grab info from web and dump it into a json file ------
-with open('subjectsIn_MC.txt') as file:
-    subjectsMC = [subject.strip() for subject in file.readlines()]
-    classes = []
-for subject in subjectsMC:
-    print(subject)
-    data = GrabClassData('Spring 2018', 'Main Campus', subject)
-    ParseHTMLtoJSON(data, classes, 'MC')
-
-with open('testJSON.json','w') as file:
-    json.dump(classes, file)
-
-
-
-
-
-
-
-
-
-
-
-#classesJson = json.dumps(classes)
-#print(classesJson)
-#test = json.loads(classesJson)
-#print(classesJson)
-# for i in test:
-#     print('---------------------------------------------------')
-#     print('Name: ',i['Title'])
-#     print('Instructor: ', i['Instructor'])
-#     print('LEC: ', i['LEC'])
-#     print('LAB: ', i['LAB'])
