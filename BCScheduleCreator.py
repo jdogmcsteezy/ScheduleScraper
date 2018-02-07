@@ -217,6 +217,11 @@ def CompileSubjectsInBuilding(building, semester, location, fileName):
                     print(subject)
                     file.write(subject + '\n')
 
+def GetSemesterDates(semester):
+    pass
+
+def GetCurrentSemester()
+
 def DoesClassMeet(day, meeting, type):
     if meeting[type] is not None:
         if day in meeting[type]['Days']:
@@ -246,3 +251,4 @@ def LoadJsonToList(fileName):
     with open(fileName) as file:
         data = json.loads(file.read())
         return data
+
