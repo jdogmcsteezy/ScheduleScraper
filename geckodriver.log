@@ -18193,3 +18193,172 @@ Sandbox: Unexpected EOF, op 0 flags 0302 path /dev/shm/org.chromium.seN4EC
 [Child 26679, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 26679, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1518113421977	geckodriver	INFO	Listening on 127.0.0.1:50719
+1518113422983	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.tecJuIzXJG9s
+1518113422984	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518113422985	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42257
+1518113423986	Marionette	INFO	Enabled via --marionette
+1518113426520	Marionette	INFO	Listening on port 42257
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1518113538758	geckodriver	INFO	Listening on 127.0.0.1:42565
+1518113539762	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.fv37ARHvwnAP
+1518113539764	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518113539767	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43861
+1518113540657	Marionette	INFO	Enabled via --marionette
+1518113542927	Marionette	INFO	Listening on port 43861
+[Child 16346, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 16346, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 16346, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518113949604	geckodriver	INFO	Listening on 127.0.0.1:48043
+1518113950610	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.LhEXTAuVd5dy
+1518113950613	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518113950616	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38433
+1518113951349	Marionette	INFO	Enabled via --marionette
+1518113953597	Marionette	INFO	Listening on port 38433
+[Child 17290, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17290, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17290, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518113976760	geckodriver	INFO	Listening on 127.0.0.1:58487
+1518113977766	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.rK61ezxltIwR
+1518113977767	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518113977768	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39527
+*** You are running in headless mode.
+1518113978482	Marionette	INFO	Enabled via --marionette
+1518113980664	Marionette	INFO	Listening on port 39527
+[Child 17490, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17490, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 17490, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 17490, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518114536684	geckodriver	INFO	Listening on 127.0.0.1:59543
+1518114537691	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Wzz3nEIXXwPy
+1518114537694	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518114537699	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35097
+*** You are running in headless mode.
+1518114538395	Marionette	INFO	Enabled via --marionette
+1518114540673	Marionette	INFO	Listening on port 35097
+1518115232007	geckodriver	INFO	Listening on 127.0.0.1:45539
+1518115233014	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.yPoNrkDZEyYU
+1518115233017	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518115233023	geckodriver::marionette	INFO	Connecting to Marionette on localhost:32999
+*** You are running in headless mode.
+1518115233892	Marionette	INFO	Enabled via --marionette
+1518115236063	Marionette	INFO	Listening on port 32999
+1518115977012	geckodriver	INFO	Listening on 127.0.0.1:33447
+1518115978018	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.gy1egUbdI65e
+1518115978019	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518115978020	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39113
+*** You are running in headless mode.
+1518115978760	Marionette	INFO	Enabled via --marionette
+1518115980971	Marionette	INFO	Listening on port 39113
+1518116022261	geckodriver	INFO	Listening on 127.0.0.1:60309
+1518116023266	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.jRfwhtab4US4
+1518116023269	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518116023273	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37523
+*** You are running in headless mode.
+1518116023959	Marionette	INFO	Enabled via --marionette
+1518116026049	Marionette	INFO	Listening on port 37523
+1518116134721	geckodriver	INFO	Listening on 127.0.0.1:47339
+1518116135728	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.JgAY79zDNKyv
+1518116135731	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518116135737	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34129
+*** You are running in headless mode.
+1518116136425	Marionette	INFO	Enabled via --marionette
+1518116138656	Marionette	INFO	Listening on port 34129
+1518116192409	geckodriver	INFO	Listening on 127.0.0.1:58023
+1518116192410	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.hhXohouudD5w
+1518116192411	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518116192412	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41449
+*** You are running in headless mode.
+1518116193140	Marionette	INFO	Enabled via --marionette
+1518116195319	Marionette	INFO	Listening on port 41449
+1518116294278	geckodriver	INFO	Listening on 127.0.0.1:57325
+1518116295282	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.gErreMOfioCU
+1518116295284	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518116295287	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46723
+*** You are running in headless mode.
+1518116295991	Marionette	INFO	Enabled via --marionette
+1518116298085	Marionette	INFO	Listening on port 46723
+1518116346521	geckodriver	INFO	Listening on 127.0.0.1:54367
+1518116347528	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.j3t0DWz3vJUz
+1518116347531	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518116347536	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39993
+*** You are running in headless mode.
+1518116348362	Marionette	INFO	Enabled via --marionette
+1518116350582	Marionette	INFO	Listening on port 39993
+1518117744510	geckodriver	INFO	Listening on 127.0.0.1:51577
+1518117745517	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.HTPabFBS4oCp
+1518117745520	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518117745525	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36405
+1518117746283	Marionette	INFO	Enabled via --marionette
+1518117748744	Marionette	INFO	Listening on port 36405
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1518117948897	geckodriver	INFO	Listening on 127.0.0.1:37803
+1518117949904	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.3wV2TqMFuUzF
+1518117949907	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518117949912	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36467
+1518117950935	Marionette	INFO	Enabled via --marionette
+1518117953203	Marionette	INFO	Listening on port 36467
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1518284143915	geckodriver	INFO	Listening on 127.0.0.1:33783
+1518284144923	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.laih5q3OJ7nu
+1518284144926	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518284144932	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41847
+1518284145728	Marionette	INFO	Enabled via --marionette
+1518284148034	Marionette	INFO	Listening on port 41847
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1518284208990	geckodriver	INFO	Listening on 127.0.0.1:35489
+1518284209997	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.G7ZmbHF7KBAB
+1518284210000	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518284210006	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36931
+1518284210767	Marionette	INFO	Enabled via --marionette
+1518284213088	Marionette	INFO	Listening on port 36931
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1518284930886	geckodriver	INFO	Listening on 127.0.0.1:53797
+1518284931890	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.eEjEelW1LUNL
+1518284931892	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518284931895	geckodriver::marionette	INFO	Connecting to Marionette on localhost:32971
+1518284932652	Marionette	INFO	Enabled via --marionette
+1518284934896	Marionette	INFO	Listening on port 32971
+1518285043359	geckodriver	INFO	Listening on 127.0.0.1:53089
+1518285044365	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.rjuiZyCee5Wq
+1518285044368	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518285044371	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35729
+1518285045615	Marionette	INFO	Enabled via --marionette
+1518285047924	Marionette	INFO	Listening on port 35729
+[Child 29753, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 29753, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 324: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1518286221813	geckodriver	INFO	Listening on 127.0.0.1:34169
+1518286222818	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.sdzk1GH6xHeB
+1518286222818	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518286222820	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36105
+1518286223571	Marionette	INFO	Enabled via --marionette
+1518286225902	Marionette	INFO	Listening on port 36105
+[Child 30689, Chrome_ChildThread] WARNING: pipe error (22): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 30689, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518286648607	geckodriver	INFO	Listening on 127.0.0.1:43177
+1518286649613	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.KNU4j5DoYJcO
+1518286649616	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518286649619	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38899
+1518286650392	Marionette	INFO	Enabled via --marionette
+1518286653125	Marionette	INFO	Listening on port 38899
+[Child 31360, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 31360, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518286740663	geckodriver	INFO	Listening on 127.0.0.1:46529
+1518286741669	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.3F9KgDTLvHcw
+1518286741672	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1518286741678	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35799
+1518286742469	Marionette	INFO	Enabled via --marionette
+1518286744882	Marionette	INFO	Listening on port 35799
+[Child 31862, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 31862, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353

@@ -1,9 +1,12 @@
-from BCScheduleCreator import ConvertMilitaryToStd, PrintClass, DoesClassMeet, CreateClassesList
+from BCScheduleCreator import ConvertMilitaryToStd, PrintClass, DoesClassMeet, CreateClassesList, GetCurrentSemester
 import json
 
 #print(type(data))
 
-print(CreateClassesList('MC', 'Spring 2018', 'Main Campus', 'subjectsIn_MC.txt'))
+print(GetCurrentSemester('Main Campus'))
+
+
+#print(CreateClassesList('MC', 'Spring 2018', 'Main Campus', 'subjectsIn_MC.txt'))
 
 # with open('testJSON.json') as file:
 #     data = json.loads(file.read())
