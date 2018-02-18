@@ -60,6 +60,12 @@ def SaveDataToHTML(Subject, Data):
     with open(filePath, 'w') as file:
         file.write(Data)
 
+
+# This function is mostly for TESTING.
+# It takes in a dictionary containing class info and 
+# prints it in a nice format.
+# Normally used in conjuction with the CreateClassList()
+# function which returns a list of dictionaries.
 def PrintClass(classDict):
     print('Name: ', classDict['Title'])
     print('Instructor: ', classDict['Instructor'])
@@ -103,11 +109,14 @@ def ConvertMilitaryToStd(time24):
     hour12 += int(hourMatch.group()[:-1])
     min12 += int(minMatch.group()[1:])
     timeOfDay = ''
-    if hour12 > 12:
+    if hour12 >= 12:
         timeOfDay = 'PM'
-        hour12 -= 12
+        if hour12 > 12:
+            hour12 -= 12
     else:
         timeOfDay = 'AM'
+    
+    
     return '{}:{} {}'.format(hour12, min12 if min12 > 9 else ('0' + str(min12)), timeOfDay)
 
 def ParseSchedule(classes):
@@ -231,17 +240,16 @@ def CompileSubjectsInBuilding(building, semester, location, fileName):
                     print(subject)
                     file.write(subject + '\n')
 
-def GetCurrentSemester(location):
+def GetCurrentTerm():
     with Web_Driver() as Driver:
         currentDate = datetime.now()
         Driver.get('http://searchclasses.butte.edu/')
         selection = Select(Driver.find_element_by_id('InputTermId'))
         semesterOptions = [option.text for option in selection.options]
-        print(semesterOptions)
         for semester in semesterOptions:
             Driver.get('http://searchclasses.butte.edu/')
             selection = Select(Driver.find_element_by_id('InputLocationId'))
-            selection.select_by_visible_text(location)
+            selection.select_by_visible_text('Main Campus')
             selection = Select(Driver.find_element_by_id('InputSubjectId'))
             selection.select_by_visible_text('MATH - Mathematics')
             selection = Select(Driver.find_element_by_id('InputTermId'))
@@ -256,7 +264,8 @@ def GetCurrentSemester(location):
                 if startDate <= currentDate and currentDate <= endDate:
                     semesterDict = {'Term' : semester, 'Start': semesterDateTuple[0], 'End': semesterDateTuple[1]}
                     return semesterDict
-        return None
+
+        return {'Term' : None, 'Start': None, 'End': None}
 
 
 
@@ -274,7 +283,6 @@ def CreateClassesList(building, semester, location, fileName):
         data = GrabClassData(semester, location, subject)
         print(subject)
         ParseHTMLtoJSON(data, classes, building)
-    print(type(classes))
     classesSet = []
     for d in classes:
         if d not in classesSet:
