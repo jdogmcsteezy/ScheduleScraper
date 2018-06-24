@@ -183,7 +183,10 @@ def ParseSemesterDates(data):
 def ParseHTMLtoJSON(data, classes, building):
     soup = BeautifulSoup(data, 'lxml')
     # Grab every table row inside a <bodyt> 
-    rows = soup.find('tbody').findAll('tr')
+    try:
+        rows = soup.find('tbody').findAll('tr')
+    except AttributeError:
+        return
     for row in rows:
         classInfo = {}
         LocationTime = []
